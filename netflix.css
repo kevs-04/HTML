@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(/image/stranger.avif);
+}
+
+.section {
+  padding: 50px;
+}
+
+.header {
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.logo h1 {
+  font-size: 50px;
+  padding: 20px 80px;
+  text-decoration: none;
+  color: red;
+}
+
+.menu-icon {
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+  margin-right: 30px;
+}
+.menu-icon span {
+  width: 20px;
+  height: 3px;
+  margin-top: -7rem;
+}
+
+.content {
+  margin: 5rem;
+}
+.content h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.content h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  opacity: 0.5;
+}
+.content p {
+  font-size: 24px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 15px;
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.btn .material-symbols-outlined {
+  font-size: 40px;
+}
+
+.chapter1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  background: linear-gradient(135deg, darkred, #000000);
+  padding: 50px;
+}
+
+.left {
+  padding: 40px 0 0 0;
+}
+
+.left h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.left p {
+  font-size: 20px;
+  margin-bottom: 72px;
+  margin-top: 50px;
+}
+
+.bottom {
+  border: red solid 2px;
+  padding: 12px;
+  width: 70%;
+}
+
+.bottom span {
+  color: red;
+}
+
+.bottom h3 {
+  font-size: 18px;
+}
+
+.right {
+  border-top: 2px solid red;
+  border-right: none; /* No border on the right */
+  border-bottom: 2px solid red;
+  border-left: 2px solid red;
+  padding: 10px;
+  margin: 10px;
+  width: 50%;
+  position: relative;
+}
+.right img {
+  width: 600px;
+  margin-left: 50px;
+}
+
+.right button {
+  padding: 5px 8px;
+  background-color: red;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  position: absolute;
+  bottom: 30px;
+  right: 10rem;
+}
+
+.right span {
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.chapter2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  background: linear-gradient(135deg, darkred, #000000);
+  padding: 50px;
+}
+
+.left-image {
+  padding: 10px;
+  margin: 10px;
+  border-top: 2px solid red;
+  border-right: 2px solid red; /* No border on the right */
+  border-bottom: 2px solid red;
+  border-left: none;
+  position: relative;
+}
+
+.left-image img {
+  width: 600px;
+}
+
+.left-image button {
+  padding: 5px 8px;
+  background-color: red;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  position: absolute;
+  bottom: 50px;
+  right: 3rem;
+}
+
+.left-image span {
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.right-content {
+  padding: 40px 0 0 0;
+  margin-left: 60px;
+}
+
+.right-content h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.right-content p {
+  font-size: 20px;
+  margin-bottom: 72px;
+  margin-top: 50px;
+}
+
+.bottom-content {
+  border: red solid 2px;
+  padding: 12px;
+  width: 70%;
+}
+
+.bottom-content h3 {
+  font-size: 18px;
+}
+.bottom-content span {
+  color: red;
+}
+
+.header h2 {
+  font-size: 24px;
+  opacity: 0.5;
+}
+
+.movies {
+  background: linear-gradient(135deg, darkred, #000000);
+}
+.header h2 {
+  font-size: 20px;
+  text-align: left;
+  opacity: 1;
+}
+.movies-image {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.movies-image img {
+  width: 100%;
+}
